@@ -27,7 +27,7 @@ The file is read and tokenized in the first part of the execution. It gets divid
 and significant fragments that are put in a vector tokenStream.
 
 The stream of token is used to build the structure of the Composite pattern up (Composite pattern is descripted
-in the UML table: "lispInterpreterComposite1.dia").
+in the UML table: "lispInterpreterComposite1.dia", not on GitHub but available upon request).
 
 The Composite objects are created with the aid of a manager of the class Factory: the factory uses the Factory Method
 pattern to create nodes, stores the nodes in a vector, and deletes all nodes when it is destructed.
