@@ -37,5 +37,5 @@ the tasks needed.
 
 This lisp interpreter then stops deleting all nodes.
 
-If something goes wrong during parsing the parser throws an exception and the main catch it making the program stop after
+If something goes wrong during parsing the parser throws an exception and the main catches it making the program stop after
 printing an error message.
